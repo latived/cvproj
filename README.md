@@ -43,19 +43,7 @@ Before 13/09/18
 
 16 Set 18
 
-- Successfully builded, installed and tested 'tutorial-2-mixedprocessing' sample project:
-	1. In build.gradle from project add 'google()' in 'repositories' block (both of them).
-	2. In build.gradle files from both modules modify 'compileSdkVersion' and 'targetSdkVersion' to be the same.
-	4. Make sure 'local.properties' has the right path to 'ndk.dir' and 'sdk.dir' (usually 'Android/Sdk/ndk-bundle' and 'Android/Sdk').
-	5. Right-click in 'openCVTutorial2MixedProcesing' and select 'Link C++ Project with Gradle'.
-	6. Select 'ndk-build' in 'Build System'.
-	7. Select path for 'Android.mk' (usually is src/main/jni/Android.mk).
-	8. Open 'Android.mk' and modify (last 'include', for example) path to 'OpenCV.mk' (look inside 'path-to-OpenCV-android-sdk/sdk/native/jni').
-	9. Open 'Application.mk' (same folder as 'Android.mk') and modify APP\_ABI to 'all' or your device arch.
-	10. Open AndroidManifest.xml from 'openCVTutorial2MixedProcessing' and delete 'android:theme'.
-	11. Install OpenCV Manager of the same arch as your device (see inside 'path-to-OpenCV-android-sdk/apk').
-	12. Build project and install apk (you can do this from Android Studio directly).
-	13. If an error appears on the device screen, you must give it permission to use the camera: go to its 'App info' and in 'Permissions' turn on 'Camera'.
+- Successfully builded, installed and tested 'tutorial-2-mixedprocessing' sample project (see #1).
 
 
 Tutorials
