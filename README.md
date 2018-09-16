@@ -43,7 +43,7 @@ Before 13/09/18
 
 16 Set 18
 
-- Successfully builded, installed and tested 'tutorial-2-mixedprocessing' sample project (see #1).
+- Successfully builded, installed and tested 'tutorial-2-mixedprocessing' sample project (see [#1](https://github.com/latived/cvproj/issues/1#issuecomment-421846364)).
 
 
 Tutorials
