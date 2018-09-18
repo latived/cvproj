@@ -1,4 +1,7 @@
-# Android 
+# OpenCV
+openCVLibrary342
+
+# Android
 *.apk
 *.ap_
 *.dex
@@ -9,6 +12,7 @@ local.properties
 # IDE files
 .idea
 *.iml
+import-summary.txt
 
 # Gradle
 .gradle
