@@ -1,3 +1,21 @@
+# Android 
+*.apk
+*.ap_
+*.dex
+
+# Local conf
+local.properties
+
+# IDE files
+.idea
+*.iml
+
+# Gradle
+.gradle
+gradle
+/build/
+gradle-app.setting
+
 # Compiled class file
 *.class
 
