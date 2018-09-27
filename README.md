@@ -53,6 +53,10 @@ Before 13/09/18
 
 - Closed [#3](https://github.com/latived/cvproj/issues/3)
 
+26 Set 18
+
+- Started studying sample projects and android related topics to solve [#6](https://github.com/latived/cvproj/issues/6)
+
 Tutorials
 ---
 
