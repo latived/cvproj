@@ -49,6 +49,10 @@ Before 13/09/18
 
 - Closed [#2](https://github.com/latived/cvproj/issues/2).
 
+18 Set 18
+
+- Closed [#3](https://github.com/latived/cvproj/issues/3)
+
 Tutorials
 ---
 
