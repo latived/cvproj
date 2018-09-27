@@ -57,6 +57,10 @@ Before 13/09/18
 
 - Started studying sample projects and android related topics to solve [#6](https://github.com/latived/cvproj/issues/6)
 
+27 Set 18
+
+- Closed [#6](https://github.com/latived/cvproj/issues/6) (helped by [How to create a C++ library with NDK on Android Studio](http://intellij.my/2017/05/10/how-to-create-a-c-library-with-ndk-on-android-studio/))
+
 Tutorials
 ---
 
