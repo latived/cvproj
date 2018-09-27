@@ -18,7 +18,7 @@ android {
     }
     externalNativeBuild {
         ndkBuild {
-            path '../../../../../../home/lativ/Documents/UFAL/repos/cvproj/app/src/jni/Android.mk'
+            path '../../../../../../home/lativ/Documents/UFAL/repos/cvproj/app/src/main/jni/Android.mk'
         }
     }
 }
