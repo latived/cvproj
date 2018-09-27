@@ -12,10 +12,27 @@ import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Mat;
+import org.opencv.core.Scalar;
+import org.opencv.objdetect.CascadeClassifier;
+
+import java.io.File;
 
 public class MainActivity extends AppCompatActivity implements CvCameraViewListener2 {
 
     private static final String TAG = "CVPROJ::MainActivity";
+    private static final Scalar FACE_RECT_COLOR = new Scalar(0, 255, 0, 255);
+    public static final int NATIVE_DETECTOR = 0;
+
+    private Mat mRgba;
+    private Mat mGray;
+    private File mCascadeFile;
+    private DetectionBasedTracker mNativeDetector;
+
+    private int mDetectorType = NATIVE_DETECTOR;
+    private String mDetectorName;
+
+    private float mRelativeFaceSize = 0.2f;
+    private int mAbsoluteFaceSize = 0;
 
     private CameraBridgeViewBase mOpenCvCameraView;
 
